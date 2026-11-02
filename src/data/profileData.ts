@@ -61,16 +61,16 @@ export const profileData: ExecutiveProfile = {
     {
       id: 's2',
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/saurabh-kumar-techbihar',
+      url: 'https://www.linkedin.com/in/saurabh-kumar-305b18343/',
       icon: 'Linkedin',
       username: 'saurabh-kumar'
     },
     {
       id: 's3',
       name: 'GitHub',
-      url: 'https://github.com/saurabh-techbihar',
+      url: 'https://github.com/SAURABH620-BOT',
       icon: 'Github',
-      username: 'saurabh-techbihar'
+      username: 'SAURABH620-BOT'
     },
     {
       id: 's4',

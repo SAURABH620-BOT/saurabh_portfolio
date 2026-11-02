@@ -17,7 +17,7 @@ export const projectsData: ProjectItem[] = [
     ],
     clientOrOrg: 'Fintech Client Architecture',
     liveUrl: '#inquiry',
-    githubUrl: 'https://github.com/saurabh-techbihar'
+    githubUrl: 'https://github.com/SAURABH620-BOT'
   },
   {
     id: 'proj-2',
@@ -35,7 +35,7 @@ export const projectsData: ProjectItem[] = [
     ],
     clientOrOrg: 'Tech Bihar Enterprise Solution',
     liveUrl: '#inquiry',
-    githubUrl: 'https://github.com/saurabh-techbihar'
+    githubUrl: 'https://github.com/SAURABH620-BOT'
   },
   {
     id: 'proj-3',
@@ -53,7 +53,7 @@ export const projectsData: ProjectItem[] = [
     ],
     clientOrOrg: 'Tech Bihar Innovations Portal',
     liveUrl: '#inquiry',
-    githubUrl: 'https://github.com/saurabh-techbihar'
+    githubUrl: 'https://github.com/SAURABH620-BOT'
   },
   {
     id: 'proj-4',
@@ -71,6 +71,6 @@ export const projectsData: ProjectItem[] = [
     ],
     clientOrOrg: 'Enterprise Telemetry Backbone',
     liveUrl: '#inquiry',
-    githubUrl: 'https://github.com/saurabh-techbihar'
+    githubUrl: 'https://github.com/SAURABH620-BOT'
   }
 ];
