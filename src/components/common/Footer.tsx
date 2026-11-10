@@ -106,7 +106,7 @@ export const Footer: React.FC = () => {
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label={link.name}
+                  aria-label={`Connect with Saurabh Kumar via ${link.name}`}
                   className="w-10 h-10 rounded-xl bg-slate-900 border border-slate-800 hover:border-cyan-500/50 hover:bg-cyan-500/10 hover:text-cyan-300 text-slate-400 flex items-center justify-center transition-all duration-200"
                   title={link.name}
                 >

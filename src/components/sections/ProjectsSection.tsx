@@ -105,6 +105,7 @@ export const ProjectsSection: React.FC = () => {
                     href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label={`View GitHub repository for ${project.title}`}
                     className="inline-flex items-center gap-1.5 text-xs font-mono text-slate-400 hover:text-slate-200 transition-colors"
                   >
                     <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">

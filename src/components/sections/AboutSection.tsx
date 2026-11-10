@@ -79,15 +79,15 @@ export const AboutSection: React.FC = () => {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-cyan-400 shrink-0 mt-0.5" />
-                  <span><strong>Core Specialization:</strong> Java Microservices & Angular SPAs</span>
+                  <span><strong>Core Specialization:</strong> Java Microservices &amp; Angular SPAs</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-cyan-400 shrink-0 mt-0.5" />
-                  <span><strong>Executive Post:</strong> Founder & CEO, Tech Bihar Innovations</span>
+                  <span><strong>Executive Post:</strong> Founder &amp; CEO, Tech Bihar Innovations</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-cyan-400 shrink-0 mt-0.5" />
-                  <span><strong>Deployment Track:</strong> 35+ Enterprise Systems & Portals</span>
+                  <span><strong>Deployment Track:</strong> 35+ Enterprise Systems &amp; Portals</span>
                 </li>
               </ul>
               <div className="pt-2">
@@ -118,7 +118,7 @@ export const AboutSection: React.FC = () => {
                   <div className="w-12 h-12 rounded-xl bg-slate-800/80 border border-slate-700 flex items-center justify-center">
                     {pillar.icon}
                   </div>
-                  <Heading level="h4" className="text-slate-100">
+                  <Heading level="h3" className="text-slate-100 text-lg sm:text-xl font-bold">
                     {pillar.title}
                   </Heading>
                   <Text variant="muted" className="leading-relaxed text-slate-300 text-xs sm:text-sm">
@@ -142,4 +142,3 @@ export const AboutSection: React.FC = () => {
     </SectionWrapper>
   );
 };
-

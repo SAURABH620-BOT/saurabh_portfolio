@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+        http://www.google.com/schemas/sitemap-image/1.1
+        http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+  <url>
+    <loc>https://saurabh620-bot.github.io/saurabh_portfolio/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://saurabh620-bot.github.io/saurabh_portfolio/image/profile_image.jpeg</image:loc>
+      <image:title>Saurabh Kumar - Founder &amp; CEO, Tech Bihar Innovations | Senior Java Full Stack Developer &amp; Angular Architect</image:title>
+      <image:caption>Official executive profile photo of Saurabh Kumar, Senior Java Full Stack Developer and Angular Architect.</image:caption>
+    </image:image>
+  </url>
+</urlset>
+

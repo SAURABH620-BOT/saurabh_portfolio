@@ -4,7 +4,7 @@ import { ArrowRight, Mail, ShieldCheck, Terminal, Award, MessageSquare } from 'l
 import { profileData } from '../../data/profileData';
 import { fadeInUp, staggerContainer } from '../../helpers/animation.helper';
 import { calculateExperienceYears } from '../../helpers/date.helper';
-import { Badge, Button, Heading, Text } from '../ui';
+import { Badge, Button, Text } from '../ui';
 
 export const HeroSection: React.FC = () => {
   const dynamicExp = calculateExperienceYears(profileData.experienceStartDate);
@@ -22,7 +22,7 @@ export const HeroSection: React.FC = () => {
   };
 
   return (
-    <section id="hero" className="relative pt-32 pb-20 lg:pt-36 lg:pb-28 overflow-hidden">
+    <section id="hero" aria-label="Executive Overview" className="relative pt-32 pb-20 lg:pt-36 lg:pb-28 overflow-hidden">
       {/* Background Cyber Grid & Radial Lights */}
       <div className="absolute inset-0 bg-grid-pattern opacity-40 pointer-events-none -z-10" />
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-gradient-radial from-cyan-500/15 via-blue-600/5 to-transparent blur-3xl pointer-events-none -z-10" />
@@ -41,20 +41,23 @@ export const HeroSection: React.FC = () => {
             {/* Executive Badges */}
             <motion.div variants={fadeInUp} className="flex flex-wrap items-center gap-2.5">
               <Badge variant="cyan" dot size="md">
-                Founder & CEO · Tech Bihar Innovations
+                Founder &amp; CEO · Tech Bihar Innovations
               </Badge>
               <Badge variant="emerald" size="md">
-                Senior Java & Angular Architect
+                Senior Java &amp; Angular Architect
               </Badge>
             </motion.div>
 
-            {/* Main Headline */}
+            {/* Primary SEO H1 Headline with Name & Specialization */}
             <motion.div variants={fadeInUp} className="space-y-3">
-              <Heading level="h1" className="leading-[1.15]">
-                Engineering <span className="bg-gradient-to-r from-cyan-400 via-sky-300 to-emerald-400 bg-clip-text text-transparent">Enterprise-Grade</span> Systems & IT Leadership.
-              </Heading>
-              <p className="text-xl sm:text-2xl font-semibold text-slate-200">
-                {profileData.name}
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.15] text-slate-100">
+                <span className="block text-xl sm:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-emerald-400 font-mono tracking-wider mb-2">
+                  {profileData.name}
+                </span>
+                Engineering <span className="bg-gradient-to-r from-cyan-400 via-sky-300 to-emerald-400 bg-clip-text text-transparent">Enterprise-Grade</span> Systems &amp; IT Leadership.
+              </h1>
+              <p className="text-base sm:text-lg font-mono text-cyan-300/90 font-medium">
+                Founder &amp; CEO, Tech Bihar Innovations · Senior Java Full Stack Developer &amp; Angular Architect
               </p>
             </motion.div>
 
@@ -89,6 +92,7 @@ export const HeroSection: React.FC = () => {
                 href={profileData.socialLinks.find(s => s.name === 'WhatsApp Direct')?.url}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Direct WhatsApp message to Saurabh Kumar"
               >
                 <Button
                   variant="outline"
@@ -158,12 +162,16 @@ export const HeroSection: React.FC = () => {
                 <div className="overflow-hidden rounded-2xl relative w-72 h-88 sm:w-80 sm:h-[420px] bg-obsidian-900">
                   <img
                     src={profileData.profilePhoto}
-                    alt={profileData.name}
-                    className="w-full h-full object-cover object-top filter brightness-105 contrast-105 transition-transform duration-700 group-hover:scale-105"
+                    alt="Saurabh Kumar - Founder & CEO of Tech Bihar Innovations, Senior Java Full Stack Developer & Angular Architect"
+                    width={320}
+                    height={420}
+                    fetchPriority="high"
+                    decoding="async"
                     loading="eager"
+                    className="w-full h-full object-cover object-top filter brightness-105 contrast-105 transition-transform duration-700 group-hover:scale-105"
                   />
                   {/* Subtle gradient vignette at bottom */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-obsidian-950 via-transparent to-transparent opacity-80" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-obsidian-950 via-transparent to-transparent opacity-80 pointer-events-none" />
 
                   {/* On-image badge overlay */}
                   <div className="absolute bottom-4 left-4 right-4 p-3 rounded-xl bg-obsidian-900/90 backdrop-blur-md border border-slate-700/80 shadow-lg">
@@ -174,7 +182,7 @@ export const HeroSection: React.FC = () => {
                           <ShieldCheck className="w-3.5 h-3.5 text-cyan-400" />
                         </div>
                         <div className="text-[10px] text-cyan-300 font-mono font-medium">
-                          CEO & Principal Engineer
+                          CEO &amp; Principal Engineer
                         </div>
                       </div>
                       <div className="px-2 py-1 rounded bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-[10px] font-mono font-bold">

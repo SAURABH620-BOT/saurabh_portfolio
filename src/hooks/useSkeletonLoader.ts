@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
 
-export const useSkeletonLoader = (initialDurationMs: number = 800) => {
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+export const useSkeletonLoader = (initialDurationMs: number = 0) => {
+  const [isLoading, setIsLoading] = useState<boolean>(initialDurationMs > 0);
 
   useEffect(() => {
+    if (initialDurationMs <= 0) return;
+
     const timer = setTimeout(() => {
       setIsLoading(false);
     }, initialDurationMs);
@@ -29,4 +31,3 @@ export const useSkeletonLoader = (initialDurationMs: number = 800) => {
     triggerReload,
   };
 };
-

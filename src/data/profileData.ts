@@ -1,5 +1,4 @@
 import type { ExecutiveProfile } from '../types/user.types';
-import profilePhotoUrl from '../assets/images/saurabh-profile.jpg';
 
 export const profileData: ExecutiveProfile = {
   name: 'Saurabh Kumar',
@@ -48,7 +47,7 @@ export const profileData: ExecutiveProfile = {
       description: 'Consulted & delivered across FinTech, ERP & GovTech'
     }
   ],
-  profilePhoto: profilePhotoUrl,
+  profilePhoto: '/image/profile_image.jpeg',
   resumeDownloadUrl: '#inquiry',
   socialLinks: [
     {

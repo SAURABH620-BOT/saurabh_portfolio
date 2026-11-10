@@ -1,0 +1,32 @@
+# robots.txt for Saurabh Kumar Executive Portfolio & Tech Bihar Innovations
+# Production URL: https://saurabh620-bot.github.io/saurabh_portfolio/
+
+User-agent: *
+Allow: /
+Allow: /image/
+Allow: /assets/
+Disallow: /*?*
+
+# Explicit allowances for Googlebot, Bingbot & social crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /image/
+Allow: /assets/
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# XML Sitemap Location
+Sitemap: https://saurabh620-bot.github.io/saurabh_portfolio/sitemap.xml
+

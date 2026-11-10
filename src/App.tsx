@@ -23,7 +23,7 @@ const sectionIds = ['hero', 'about', 'tech-stack', 'services', 'projects', 'inqu
 
 export const App: React.FC = () => {
   const activeSection = useScrollSpy(sectionIds, 150);
-  const { isLoading } = useSkeletonLoader(600);
+  const { isLoading } = useSkeletonLoader(0);
   const [selectedService, setSelectedService] = useState<string>('Enterprise Java Microservices Architecture');
 
   const handleServiceSelect = (serviceTitle: string) => {
