@@ -3,161 +3,161 @@ import type { TechSkill } from '../types/portfolio.types';
 export const techSkills: TechSkill[] = [
   // Backend
   {
-    name: 'Java 17 / 21 LTS',
+    name: 'Java 21 LTS & Concurrency',
+    category: 'backend',
+    level: 96,
+    experience: '4+ Years',
+    featured: true,
+    tags: ['Virtual Threads (Project Loom)', 'Structured Concurrency', 'Garbage Collection Profiling', 'Streams API']
+  },
+  {
+    name: 'Spring Boot 3.x & Cloud Ecosystem',
     category: 'backend',
     level: 95,
     experience: '4+ Years',
     featured: true,
-    tags: ['Core Java', 'Virtual Threads', 'Concurrency', 'Streams API', 'JVM Tuning']
+    tags: ['Spring Cloud Gateway', 'Resilience4j Circuit Breaker', 'Spring Security 6', 'Micrometer Tracing']
   },
   {
-    name: 'Spring Boot 3.x & Spring Cloud',
+    name: 'Distributed Microservices Architecture',
     category: 'backend',
-    level: 95,
+    level: 94,
     experience: '4+ Years',
     featured: true,
-    tags: ['REST APIs', 'Spring Security', 'Eureka', 'Config Server', 'OpenFeign']
+    tags: ['Domain-Driven Design (DDD)', 'CQRS & Event Sourcing', 'Idempotent APIs', 'Service Discovery']
   },
   {
-    name: 'Microservices Architecture',
+    name: 'Apache Kafka & Message Brokers',
+    category: 'backend',
+    level: 90,
+    experience: '3+ Years',
+    featured: true,
+    tags: ['Kafka Streams', 'Consumer Group Rebalancing', 'Dead Letter Queues', 'RabbitMQ Clustering']
+  },
+  {
+    name: 'Spring Data JPA & Hibernate 6',
     category: 'backend',
     level: 92,
     experience: '4+ Years',
-    featured: true,
-    tags: ['API Gateway', 'Circuit Breaker', 'Distributed Tracing', 'CQRS', 'Event Sourcing']
-  },
-  {
-    name: 'Hibernate & Spring Data JPA',
-    category: 'backend',
-    level: 90,
-    experience: '4+ Years',
     featured: false,
-    tags: ['ORM', 'QueryDSL', 'Transaction Management', 'Connection Pooling']
-  },
-  {
-    name: 'Apache Kafka & RabbitMQ',
-    category: 'backend',
-    level: 88,
-    experience: '3+ Years',
-    featured: true,
-    tags: ['Event-Driven Pub/Sub', 'Message Brokers', 'Dead Letter Queues']
+    tags: ['Query Optimization', 'Second-Level Cache', 'HikariCP Pooling', 'Transactional Isolation']
   },
 
   // Frontend
   {
-    name: 'Angular (v14 — v18)',
-    category: 'frontend',
-    level: 94,
-    experience: '4+ Years',
-    featured: true,
-    tags: ['Signals', 'Standalone Components', 'Lazy Loading Modules', 'Interceptors']
-  },
-  {
-    name: 'TypeScript & JavaScript (ES6+)',
+    name: 'Angular 17 / 18 Enterprise Suite',
     category: 'frontend',
     level: 95,
     experience: '4+ Years',
     featured: true,
-    tags: ['Generics', 'Strict Typing', 'Decorators', 'Async/Await']
+    tags: ['Signals Architecture', 'Standalone Components', 'Micro-Frontends', 'Lazy-Loaded Routes']
   },
   {
-    name: 'RxJS & NgRx State Management',
+    name: 'TypeScript (Strict Mode)',
     category: 'frontend',
-    level: 90,
+    level: 95,
     experience: '4+ Years',
     featured: true,
-    tags: ['Observables', 'BehaviorSubjects', 'Store', 'Effects', 'Reducers']
+    tags: ['Discriminated Unions', 'Conditional Types', 'Generic Constraints', 'Zero `any` Discipline']
   },
   {
-    name: 'Tailwind CSS & Modern SCSS',
+    name: 'RxJS & NgRx Reactive State Management',
     category: 'frontend',
     level: 92,
     experience: '4+ Years',
-    featured: false,
-    tags: ['Responsive Grid', 'Glassmorphism', 'Dark Themes', 'Component Theming']
+    featured: true,
+    tags: ['Reactive Streams', 'NgRx Store & Effects', 'Higher-order Observables', 'Memory Leak Prevention']
   },
   {
-    name: 'React & Modern Frontend UI',
+    name: 'Tailwind CSS & Atomic Design Systems',
     category: 'frontend',
-    level: 86,
+    level: 94,
+    experience: '4+ Years',
+    featured: false,
+    tags: ['Dark Theme Obsidian Tokens', 'Glassmorphism Blur', 'Responsive Breakpoints', 'Design Tokens']
+  },
+  {
+    name: 'React 19 & Component Architecture',
+    category: 'frontend',
+    level: 88,
     experience: '3+ Years',
     featured: false,
-    tags: ['Custom Hooks', 'Framer Motion', 'Virtual DOM', 'Component Architecture']
+    tags: ['Custom Hooks', 'Framer Motion 14', 'Concurrent Features', 'Modular UI State']
   },
 
   // Cloud & DevOps
   {
-    name: 'Docker & Containerization',
+    name: 'Docker & Container Hardening',
+    category: 'cloud_devops',
+    level: 92,
+    experience: '3+ Years',
+    featured: true,
+    tags: ['Multi-Stage Slim Builds', 'Non-Root Security Context', 'Docker Compose', 'Image Layer Optimization']
+  },
+  {
+    name: 'AWS Cloud Infrastructure',
+    category: 'cloud_devops',
+    level: 86,
+    experience: '3+ Years',
+    featured: true,
+    tags: ['AWS ECS / ECR', 'RDS Multi-AZ', 'S3 & CloudFront CDN', 'IAM Least Privilege', 'CloudWatch']
+  },
+  {
+    name: 'Automated CI/CD & GitOps',
     category: 'cloud_devops',
     level: 90,
     experience: '3+ Years',
-    featured: true,
-    tags: ['Multi-stage Builds', 'Docker Compose', 'Container Hardening', 'Images']
-  },
-  {
-    name: 'AWS Cloud Services',
-    category: 'cloud_devops',
-    level: 85,
-    experience: '3+ Years',
-    featured: true,
-    tags: ['EC2', 'S3', 'RDS', 'ECS', 'IAM', 'CloudWatch']
-  },
-  {
-    name: 'CI/CD Automation',
-    category: 'cloud_devops',
-    level: 88,
-    experience: '3+ Years',
     featured: false,
-    tags: ['GitHub Actions', 'Jenkins', 'Automated Testing', 'Blue-Green Deployments']
+    tags: ['GitHub Actions Workflows', 'Blue-Green Deployments', 'Automated Test Suites', 'Automated Rollbacks']
   },
   {
-    name: 'Kubernetes (K8s)',
+    name: 'Kubernetes (K8s) Orchestration',
     category: 'cloud_devops',
-    level: 80,
+    level: 82,
     experience: '2+ Years',
     featured: false,
-    tags: ['Deployments', 'Ingress Controller', 'ConfigMaps', 'Helm']
+    tags: ['Pods & ReplicaSets', 'Ingress Routing & TLS', 'ConfigMaps & Secrets', 'Horizontal Pod Autoscaling']
   },
 
   // Architecture & Databases
   {
-    name: 'PostgreSQL & MySQL',
+    name: 'PostgreSQL & Relational Data Engines',
     category: 'architecture_db',
-    level: 92,
+    level: 93,
     experience: '4+ Years',
     featured: true,
-    tags: ['Indexing Strategies', 'Query Optimization', 'JSONB', 'Replication']
+    tags: ['B-Tree & GIN Indexing', 'EXPLAIN ANALYZE Optimization', 'JSONB Document Storage', 'Read Replicas']
   },
   {
-    name: 'Redis In-Memory Cache',
+    name: 'Redis Distributed In-Memory Cache',
     category: 'architecture_db',
-    level: 90,
+    level: 92,
     experience: '3+ Years',
     featured: true,
-    tags: ['Session Clustering', 'Cache Aside', 'Pub/Sub', 'Rate Limiting']
+    tags: ['Distributed Locking (Redlock)', 'Session Clustering', 'Cache Aside & TTL', 'Rate Limiting Algorithms']
   },
   {
-    name: 'Enterprise Security & OAuth2',
-    category: 'architecture_db',
-    level: 92,
-    experience: '4+ Years',
-    featured: true,
-    tags: ['JWT Tokens', 'Keycloak', 'RBAC', 'CORS & CSRF Defense', 'TLS/SSL']
-  },
-  {
-    name: 'System Design & REST/gRPC',
+    name: 'Enterprise Security, OAuth2 & Keycloak',
     category: 'architecture_db',
     level: 94,
     experience: '4+ Years',
     featured: true,
-    tags: ['High Availability', 'Load Balancing', 'Idempotency', 'Contract Testing']
+    tags: ['Zero-Trust Architecture', 'JWT Token Cryptography', 'RBAC & ABAC', 'OWASP Top 10 Mitigation']
+  },
+  {
+    name: 'High-Availability System Design & SLAs',
+    category: 'architecture_db',
+    level: 95,
+    experience: '4+ Years',
+    featured: true,
+    tags: ['Sub-15ms Latency Budgets', '99.99% Availability', 'Disaster Recovery (RTO/RPO)', 'Contract Testing']
   }
 ];
 
 export const techCategoryLabels: Record<string, { label: string; icon: string; count: number }> = {
-  all: { label: 'All Technologies', icon: 'Layers', count: 18 },
-  backend: { label: 'Java & Microservices', icon: 'Server', count: 5 },
-  frontend: { label: 'Angular & Modern UI', icon: 'Layout', count: 5 },
-  cloud_devops: { label: 'Cloud & DevOps', icon: 'Cloud', count: 4 },
-  architecture_db: { label: 'Architecture & DB', icon: 'Database', count: 4 },
+  all: { label: 'Complete Architectural Arsenal', icon: 'Layers', count: 18 },
+  backend: { label: 'Java 21 & Microservices', icon: 'Server', count: 5 },
+  frontend: { label: 'Angular 18 & Enterprise UI', icon: 'Layout', count: 5 },
+  cloud_devops: { label: 'Cloud, Docker & DevOps', icon: 'Cloud', count: 4 },
+  architecture_db: { label: 'Architecture & Databases', icon: 'Database', count: 4 },
 };

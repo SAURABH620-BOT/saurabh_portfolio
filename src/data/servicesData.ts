@@ -3,62 +3,62 @@ import type { ServiceItem } from '../types/portfolio.types';
 export const servicesData: ServiceItem[] = [
   {
     id: 'srv-1',
-    title: 'Enterprise Java Microservices Architecture',
-    shortDesc: 'Decoupled, high-throughput microservices using Spring Boot 3, Kafka, and resilient distributed patterns.',
-    longDesc: 'Architecting end-to-end fault-tolerant microservices ecosystems. Specializing in domain-driven design, API gateways, circuit breaking, distributed transaction patterns, and JVM garbage collection optimization for sub-millisecond throughput.',
+    title: 'Enterprise Java 21 & Spring Boot Microservices Ecosystems',
+    shortDesc: 'High-throughput, distributed microservices engineered with Spring Boot 3.x, Apache Kafka, and Virtual Threads for ultra-low latency transaction processing.',
+    longDesc: 'Architecting resilient, event-driven distributed backbones designed to handle massive concurrency without degradation. From domain-driven service decomposition to distributed tracing, circuit breakers, and zero-loss message queues, our microservices architectures are built for continuous availability, auditability, and bank-grade security.',
     iconName: 'Server',
     deliverables: [
-      'Spring Boot 3.x microservice blueprints',
-      'Apache Kafka / RabbitMQ asynchronous event queues',
-      'Distributed caching strategies with Redis',
-      'OAuth2, Keycloak & JWT role-based security'
+      'Spring Boot 3.x & Java 21 Virtual Threads high-concurrency blueprints',
+      'Apache Kafka & RabbitMQ event streaming with dead-letter queue resilience',
+      'Distributed multi-level caching strategies with Redis & Redis Cluster',
+      'Zero-Trust security layers with OAuth2, Keycloak, JWT & RBAC governance'
     ],
-    technologies: ['Java 21', 'Spring Cloud', 'Kafka', 'Docker', 'PostgreSQL'],
+    technologies: ['Java 21 LTS', 'Spring Boot 3.x', 'Apache Kafka', 'Docker', 'PostgreSQL', 'Redis'],
     ctaLabel: 'Consult on Microservices'
   },
   {
     id: 'srv-2',
-    title: 'High-Scale Angular Enterprise Frontend Engineering',
-    shortDesc: 'Production-grade enterprise single page applications (SPAs) with Angular 16+, NgRx, and modern reactive patterns.',
-    longDesc: 'Designing enterprise web consoles, administrative portals, and dashboards with strict TypeScript typings, component modularity, micro-frontends, dynamic forms, and comprehensive state management using NgRx and RxJS pipelines.',
+    title: 'High-Velocity Angular & Enterprise Frontend Architecture',
+    shortDesc: 'Deterministic, reactive single-page applications (SPAs) and corporate consoles engineered with Angular 17/18 Signals, NgRx, and strict TypeScript.',
+    longDesc: 'Enterprise interfaces require absolute reliability and sub-second interactions. We design scalable frontend architectures featuring strict TypeScript typings, state synchronization, dynamic forms, lazy-loaded micro-frontends, and optimized rendering that makes complex multi-module enterprise workflows feel instantaneous.',
     iconName: 'Layout',
     deliverables: [
-      'Modular Angular architecture with lazy-loading routes',
-      'Reactive forms & dynamic validation engines',
-      'Custom reusable design systems & theme tokens',
-      'Real-time WebSocket & SSE data feeds'
+      'Signal-driven Angular 17/18 architectures with sub-second FCP',
+      'Strict state orchestration using NgRx store, effects, and RxJS pipelines',
+      'Dynamic schema-driven forms with real-time enterprise validation',
+      'Reusable, accessible UI component design systems styled with Tailwind CSS'
     ],
-    technologies: ['Angular 17/18', 'TypeScript', 'RxJS', 'NgRx', 'Tailwind CSS'],
-    ctaLabel: 'Build Enterprise UI'
+    technologies: ['Angular 17/18', 'TypeScript', 'RxJS / Signals', 'NgRx', 'Tailwind CSS', 'Vite/Webpack'],
+    ctaLabel: 'Architect Enterprise UI'
   },
   {
     id: 'srv-3',
-    title: 'Cloud Modernization & Containerized Deployments',
-    shortDesc: 'Migrating monolithic systems to cloud-native containerized architectures with AWS and automated CI/CD.',
-    longDesc: 'Helping enterprises modernize legacy architectures. Containerizing applications via Docker, orchestrating Kubernetes pods, setting up automated CI/CD deployment pipelines on GitHub Actions, and securing cloud infrastructure on AWS.',
+    title: 'Cloud Modernization, Containerization & Zero-Downtime CI/CD',
+    shortDesc: 'Seamless monolith decoupling, Docker container hardening, AWS cloud orchestration, and automated GitOps deployment pipelines.',
+    longDesc: 'Transform brittle legacy deployments into agile, automated cloud platforms. We containerize enterprise applications, orchestrate Kubernetes workloads, and configure blue-green zero-downtime CI/CD pipelines that empower teams to ship features to production multiple times a day with zero fear of regressions or service disruptions.',
     iconName: 'Cloud',
     deliverables: [
-      'Legacy monolith-to-microservices migration roadmaps',
-      'Docker multi-stage optimized container images',
-      'Zero-downtime CI/CD deployment pipelines',
-      'Cloud monitoring, logging & Grafana dashboards'
+      'Monolith-to-microservices migration roadmaps with zero downtime',
+      'Multi-stage Docker container images with security vulnerability scanning',
+      'Automated GitHub Actions CI/CD pipelines with instant rollback mechanisms',
+      'Distributed observability stacks with Prometheus, Grafana, and AWS CloudWatch'
     ],
-    technologies: ['Docker', 'AWS ECS/RDS', 'Kubernetes', 'GitHub Actions', 'Linux'],
-    ctaLabel: 'Plan Cloud Migration'
+    technologies: ['Docker', 'AWS ECS/RDS', 'Kubernetes', 'GitHub Actions', 'Linux', 'Grafana'],
+    ctaLabel: 'Modernize Cloud Stack'
   },
   {
     id: 'srv-4',
-    title: 'Executive Technical Leadership & IT Consulting',
-    shortDesc: 'Fractional CTO, architecture governance, and technical leadership under the banner of Tech Bihar Innovations.',
-    longDesc: 'Guiding enterprise engineering teams through architecture reviews, code audits, developer mentoring, and system design roadmaps. Aligning business objectives with scalable technical execution to maximize ROI and engineering velocity.',
+    title: 'Executive Fractional CTO & Architecture Governance',
+    shortDesc: 'High-leverage technical leadership, architectural audits, engineering governance, and scalability roadmaps under Tech Bihar Innovations.',
+    longDesc: 'Bridging executive vision with elite technical execution. We advise founders, CTOs, and enterprise stakeholders on system design reviews, tech stack selection, engineering velocity bottlenecks, code quality standards, and compliance audits to maximize capital efficiency and engineering output.',
     iconName: 'ShieldCheck',
     deliverables: [
-      'Comprehensive system architecture & security audits',
-      'Engineering sprint governance & tech stack selection',
-      'Performance profiling & bottleneck mitigation',
-      'Enterprise SLA & disaster recovery planning'
+      'Comprehensive architectural audits & technical debt mitigation strategies',
+      'Engineering velocity frameworks, sprint governance & code standards',
+      'Performance bottleneck profiling (JVM memory dumps, query indexing)',
+      'Enterprise SLA disaster recovery, data sovereignty & compliance planning'
     ],
-    technologies: ['System Design', 'Enterprise Security', 'Agile/Scrum', 'Compliance'],
-    ctaLabel: 'Request Executive Advisory'
+    technologies: ['System Architecture', 'Enterprise Security', 'JVM Tuning', 'Technical Due Diligence', 'Disaster Recovery'],
+    ctaLabel: 'Book Executive Advisory'
   }
 ];

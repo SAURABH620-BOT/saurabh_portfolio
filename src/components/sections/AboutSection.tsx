@@ -13,24 +13,24 @@ export const AboutSection: React.FC = () => {
   const pillars = [
     {
       icon: <Server className="w-6 h-6 text-cyan-400" />,
-      title: 'Enterprise Java Microservices',
+      title: 'Banking-Grade Java 21 & Microservices',
       description:
-        'Architecting resilient backbones utilizing Java 17/21, Spring Boot 3, and event-driven patterns with Apache Kafka. High-concurrency tuning, zero-loss queues, and sub-second latency SLA guarantees.',
-      highlights: ['Spring Boot 3.x & Spring Cloud', 'Kafka Event Streaming', 'Resilience4j & Rate Limiting']
+        'Designing fault-tolerant distributed backbones with Spring Boot 3, Kafka event streams, and Virtual Threads. High-concurrency tuning, zero-loss queues, and sub-15ms p99 latency SLA guarantees.',
+      highlights: ['Spring Boot 3.x & Virtual Threads', 'Kafka Event Streaming & CQRS', 'Resilience4j & Zero-Loss Queues']
     },
     {
       icon: <Layers className="w-6 h-6 text-emerald-400" />,
-      title: 'High-Scale Angular Architecture',
+      title: 'Deterministic Angular Enterprise Architecture',
       description:
-        'Crafting responsive, high-performance enterprise portals using Angular (v14-v18), strict TypeScript, RxJS reactive programming, and NgRx state stores with modular architecture.',
-      highlights: ['Signals & Fine-grained Reactivity', 'Clean Multi-tier State Management', 'Reusable Enterprise UI Systems']
+        'Engineering responsive, mission-critical enterprise portals using Angular (v14-v18), strict TypeScript, RxJS reactive pipelines, and NgRx state stores with sub-second First Contentful Paint.',
+      highlights: ['Signals & Fine-grained Reactivity', 'Clean Multi-tier NgRx State Stores', 'Reusable Enterprise UI Systems']
     },
     {
       icon: <Cpu className="w-6 h-6 text-indigo-400" />,
       title: 'IT Leadership & Tech Bihar Innovations',
       description:
-        'Leading Tech Bihar Innovations with a clear vision: creating a center of software engineering excellence in Bihar that builds world-standard cloud applications for national and international clients.',
-      highlights: ['Founder & Executive Leadership', 'System Design & Code Audits', 'Zero-Trust Cloud Deployments']
+        'Leading Tech Bihar Innovations with an uncompromising vision: building a regional software engineering powerhouse from Bihar that delivers tier-1 cloud architectures for national and global enterprises.',
+      highlights: ['Founder & Executive Leadership', 'Architectural Due Diligence & Audits', 'Zero-Trust Cloud Governance']
     }
   ];
 
@@ -40,8 +40,8 @@ export const AboutSection: React.FC = () => {
       badge="Leadership & Executive Vision"
       badgeVariant="cyan"
       title="Architecting Scalability, Resiliency"
-      accentTitle="& Engineering Value."
-      subtitle="From enterprise Java microservices to stateful Angular frontends, delivering solutions that scale seamlessly under high transactional loads."
+      accentTitle="& Engineering Dominance."
+      subtitle="Bridging executive business vision with elite distributed systems engineering. Delivering zero-downtime Java microservices and high-velocity Angular ecosystems that scale under intense enterprise loads."
       hasGlow
     >
       <div className="space-y-12">
@@ -55,7 +55,7 @@ export const AboutSection: React.FC = () => {
                   Executive Mandate · Tech Bihar Innovations
                 </span>
               </div>
-              <Heading level="h3" className="text-slate-100">
+              <Heading level="h3" className="text-slate-100 text-xl sm:text-2xl font-bold">
                 Building India’s Next-Generation Enterprise Systems from Bihar.
               </Heading>
               <div className="space-y-3">
@@ -79,7 +79,7 @@ export const AboutSection: React.FC = () => {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-cyan-400 shrink-0 mt-0.5" />
-                  <span><strong>Core Specialization:</strong> Java Microservices &amp; Angular SPAs</span>
+                  <span><strong>Core Specialization:</strong> Java 21 Microservices &amp; Angular 18</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-cyan-400 shrink-0 mt-0.5" />
@@ -88,6 +88,10 @@ export const AboutSection: React.FC = () => {
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-cyan-400 shrink-0 mt-0.5" />
                   <span><strong>Deployment Track:</strong> 35+ Enterprise Systems &amp; Portals</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
+                  <span><strong>Production Benchmarks:</strong> 10K+ TPS &amp; 99.99% Availability</span>
                 </li>
               </ul>
               <div className="pt-2">

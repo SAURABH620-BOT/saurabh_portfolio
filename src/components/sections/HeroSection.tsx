@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Mail, ShieldCheck, Terminal, Award, MessageSquare } from 'lucide-react';
+import { ArrowRight, Mail, ShieldCheck, Terminal, Award, MessageSquare, Sparkles } from 'lucide-react';
 import { profileData } from '../../data/profileData';
 import { fadeInUp, staggerContainer } from '../../helpers/animation.helper';
 import { calculateExperienceYears } from '../../helpers/date.helper';
@@ -50,14 +50,25 @@ export const HeroSection: React.FC = () => {
 
             {/* Primary SEO H1 Headline with Name & Specialization */}
             <motion.div variants={fadeInUp} className="space-y-3">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.15] text-slate-100">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.12] text-slate-100">
                 <span className="block text-xl sm:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-emerald-400 font-mono tracking-wider mb-2">
                   {profileData.name}
                 </span>
-                Engineering <span className="bg-gradient-to-r from-cyan-400 via-sky-300 to-emerald-400 bg-clip-text text-transparent">Enterprise-Grade</span> Systems &amp; IT Leadership.
+                Architecting <span className="bg-gradient-to-r from-cyan-400 via-sky-300 to-emerald-400 bg-clip-text text-transparent">High-Throughput</span> Systems &amp; IT Leadership.
               </h1>
               <p className="text-base sm:text-lg font-mono text-cyan-300/90 font-medium">
                 Founder &amp; CEO, Tech Bihar Innovations · Senior Java Full Stack Developer &amp; Angular Architect
+              </p>
+            </motion.div>
+
+            {/* Executive Architectural Creed Pill */}
+            <motion.div variants={fadeInUp} className="p-3.5 rounded-xl bg-obsidian-950/70 border border-cyan-500/20 backdrop-blur-md max-w-2xl">
+              <div className="flex items-center gap-2 text-xs font-mono text-cyan-400 font-semibold mb-1">
+                <Sparkles className="w-3.5 h-3.5" />
+                <span>Executive Architectural Creed</span>
+              </div>
+              <p className="text-xs sm:text-sm text-slate-300 italic leading-relaxed">
+                &ldquo;Enterprise systems should be invisible in their reliability, relentless in their throughput, and unstoppable in their scale.&rdquo;
               </p>
             </motion.div>
 

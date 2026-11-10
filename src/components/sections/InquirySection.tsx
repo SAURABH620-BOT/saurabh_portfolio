@@ -123,8 +123,8 @@ export const InquirySection: React.FC<InquirySectionProps> = ({ selectedServiceP
       badge="Direct Executive Channel"
       badgeVariant="cyan"
       title="Initiate Strategic"
-      accentTitle="Inquiry & RFP."
-      subtitle="Connect directly with Saurabh Kumar for system architecture reviews, enterprise engineering projects, or technical leadership consulting."
+      accentTitle="Partnership & RFP."
+      subtitle="Have an ambitious enterprise roadmap, need to decouple a mission-critical monolith, or seeking fractional CTO advisory? Connect directly with Saurabh Kumar."
       hasGlow
     >
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
@@ -135,11 +135,11 @@ export const InquirySection: React.FC<InquirySectionProps> = ({ selectedServiceP
               <Badge variant="cyan" size="sm" dot>
                 Direct Access
               </Badge>
-              <Heading level="h3" className="text-xl sm:text-2xl text-slate-100">
+              <Heading level="h3" className="text-xl sm:text-2xl text-slate-100 font-bold">
                 Direct Communication Coordinates
               </Heading>
-              <Text variant="body" className="text-sm text-slate-300">
-                Submit the form to dispatch your brief directly to Saurabh's WhatsApp, or connect immediately through the verified channels below.
+              <Text variant="body" className="text-sm text-slate-300 leading-relaxed">
+                Submit the technical brief below to dispatch your project specifications directly to Saurabh&apos;s verified WhatsApp channel, or connect immediately through executive coordinates.
               </Text>
             </div>
 
@@ -148,7 +148,7 @@ export const InquirySection: React.FC<InquirySectionProps> = ({ selectedServiceP
               <div className="flex items-center justify-between text-xs font-mono text-emerald-400">
                 <span className="flex items-center gap-1.5 font-bold">
                   <MessageSquare className="w-3.5 h-3.5" />
-                  Official WhatsApp & Call:
+                  Official WhatsApp &amp; Call:
                 </span>
                 <button
                   type="button"
@@ -220,10 +220,10 @@ export const InquirySection: React.FC<InquirySectionProps> = ({ selectedServiceP
             <div className="pt-2 border-t border-slate-800/80 space-y-2 text-xs text-slate-400">
               <div className="flex items-center gap-2 text-slate-300 font-medium">
                 <ShieldCheck className="w-4 h-4 text-cyan-400" />
-                <span>Executive SLA & Confidentiality</span>
+                <span>Executive SLA &amp; Confidentiality Guarantee</span>
               </div>
               <p className="leading-relaxed">
-                All inquiries, project briefs, and proprietary scopes are protected under strict professional confidentiality. Standard NDA available on request.
+                Guaranteed response within 2 hours for enterprise inquiries. Strict non-disclosure (NDA) and intellectual property confidentiality observed for all technical briefs.
               </p>
             </div>
           </Card>
@@ -299,10 +299,10 @@ export const InquirySection: React.FC<InquirySectionProps> = ({ selectedServiceP
                 <div className="border-b border-slate-800 pb-4 mb-2">
                   <h3 className="text-lg font-bold text-slate-100 flex items-center gap-2">
                     <Sparkles className="w-4 h-4 text-cyan-400" />
-                    Enterprise Project & Consultation Brief
+                    Enterprise Project Brief &amp; Architectural Scoping
                   </h3>
                   <p className="text-xs text-slate-400 mt-1">
-                    Please provide project details for an accurate architectural scope assessment.
+                    Direct line to Founder &amp; CEO, Tech Bihar Innovations. Submitting this brief formats your specifications for immediate review and WhatsApp dispatch.
                   </p>
                 </div>
 

@@ -8,7 +8,7 @@ const initialFormData: InquiryFormData = {
   fullName: '',
   businessEmail: '',
   phone: '',
-  serviceInterest: 'Enterprise Java Microservices Architecture',
+  serviceInterest: 'Enterprise Java 21 & Spring Boot Microservices Ecosystems',
   projectScope: '',
   securityCode: '',
   budgetRange: '$5,000 - $15,000',

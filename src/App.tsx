@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useScrollSpy } from './hooks/useScrollSpy';
 import { useSkeletonLoader } from './hooks/useSkeletonLoader';
 import { Navbar, Footer } from './components/common';
+import { servicesData } from './data/servicesData';
 import {
   HeroSection,
   AboutSection,
@@ -24,7 +25,7 @@ const sectionIds = ['hero', 'about', 'tech-stack', 'services', 'projects', 'inqu
 export const App: React.FC = () => {
   const activeSection = useScrollSpy(sectionIds, 150);
   const { isLoading } = useSkeletonLoader(0);
-  const [selectedService, setSelectedService] = useState<string>('Enterprise Java Microservices Architecture');
+  const [selectedService, setSelectedService] = useState<string>(servicesData[0].title);
 
   const handleServiceSelect = (serviceTitle: string) => {
     setSelectedService(serviceTitle);

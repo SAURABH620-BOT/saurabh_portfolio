@@ -10,41 +10,41 @@ export const profileData: ExecutiveProfile = {
   location: 'Patna, Bihar & Pan-India Enterprise Reach',
   experienceYears: 4,
   experienceStartDate: '2021-08-01',
-  tagline: 'Architecting Resilient Enterprise Microservices, High-Performance Angular Frontends & Leading Digital Transformation.',
-  bioSummary: 'Visionary technology executive and Senior Full Stack Engineer specializing in robust Java 17/21 Spring Boot microservices, high-scale Angular 16+ enterprise frontends, and distributed cloud backbones. Leading Tech Bihar Innovations to empower enterprises with fault-tolerant, scalable, and ultra-secure IT solutions.',
+  tagline: 'Turning complex distributed logic into ultra-reliable, high-throughput digital machinery. Scaling modern enterprises from core microservices to reactive frontends.',
+  bioSummary: 'Founder & CEO at Tech Bihar Innovations and Senior Enterprise Systems Architect with 4+ years of battle-tested engineering experience. Specializing in sub-15ms transactional Java microservices (Spring Boot 3, Kafka, Virtual Threads) and deterministic, reactive Angular frontends. Driven by a mission to turn engineering precision into sustainable enterprise market dominance.',
   detailedVision: [
-    'Spearheading Tech Bihar Innovations with a mission to bring world-class engineering, distributed cloud infrastructure, and state-of-the-art enterprise digital systems.',
-    '4+ Years of battle-tested engineering experience designing microservices architectures, reactive frontends with Angular & RxJS, and event-driven data pipelines.',
-    'Pioneering mission-critical enterprise systems with 99.99% uptime SLAs, zero-trust security postures, and enterprise-grade performance tuning.'
+    'Democratizing Tier-1 Enterprise Engineering: Founded Tech Bihar Innovations with a clear mandate — to establish a premier software engineering powerhouse from Bihar, delivering world-class distributed cloud architectures, robust banking-grade microservices, and state-of-the-art enterprise digital portals.',
+    'Zero-Compromise Resiliency & High Concurrency: Production systems are tested by chaos. By coupling event-driven microservices with idempotent state machines, circuit breakers, and reactive frontends, we eliminate single points of failure, maintain strict sub-15ms latencies, and achieve 99.99% operational SLA uptime.',
+    'Aligning Engineering Velocity with Business ROI: Great code is useless if it does not move the business needle. I partner with founders, CTOs, and enterprise stakeholders to de-risk legacy monoliths, accelerate release velocity by 3x, and engineer resilient systems that scale smoothly to millions of daily transactions.'
   ],
   metrics: [
     {
       id: 'm1',
-      label: 'Enterprise Experience',
+      label: 'Enterprise Engineering',
       value: '4+',
       suffix: 'Years',
-      description: 'Java 17/21, Spring Boot & Angular Architecture'
+      description: 'Java 21 LTS, Spring Boot 3 & Angular 18 Architect'
     },
     {
       id: 'm2',
-      label: 'Production Systems',
-      value: '35+',
-      suffix: 'Deployments',
-      description: 'Distributed microservices & web portals deployed'
+      label: 'Peak Throughput Capacity',
+      value: '10K+',
+      suffix: 'TPS',
+      description: 'Engineered for high-volume banking & event streams'
     },
     {
       id: 'm3',
-      label: 'SLA Reliability',
+      label: 'Production SLA Uptime',
       value: '99.99%',
       prefix: '',
-      description: 'Fault-tolerant architecture with sub-second latency'
+      description: 'Fault-tolerant architecture with sub-second failover'
     },
     {
       id: 'm4',
-      label: 'Enterprise Clients & Impact',
-      value: '20+',
-      suffix: 'Partners',
-      description: 'Consulted & delivered across FinTech, ERP & GovTech'
+      label: 'Enterprise Deployments',
+      value: '35+',
+      suffix: 'Deployments',
+      description: 'Mission-critical microservices, ERPs & portals delivered'
     }
   ],
   profilePhoto: '/image/profile_image.jpeg',
